@@ -17,7 +17,7 @@ namespace Birds
         }
         public string Description
         {
-            get { return $"{Color} jajo o wielkości {Size:0.0} cm."; }
+            get { return $"\n{Color} jajo o wielkości {Size:0.0} cm."; }
         }
     }
 }

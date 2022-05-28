@@ -12,6 +12,7 @@ namespace Birds
         public virtual Egg[] LayEggs(int numberOfEggs)
         {
             Console.Error.WriteLine("Metoda Bird.LayEggs nie powinna być wywoływana");
+            return new Egg[0];
         }
     }
 }
