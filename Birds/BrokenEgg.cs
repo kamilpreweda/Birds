@@ -8,9 +8,9 @@ namespace Birds
 {
     public class BrokenEgg : Egg
     {
-        public BrokenEgg(double size, string color) : base(size, color)
+        public BrokenEgg(string color) : base(0, $"{color} pęknięte ")
         {
-            Console.WriteLine("Ptak złożył pęknięte jajo");
+            Console.WriteLine("\nPtak złożył pęknięte jajo");
         }
     }
 }
